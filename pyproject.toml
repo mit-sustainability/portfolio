@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = "A documentation website for past MITOS projects"
+authors = ["Yu Cheng <yu_cheng@mit.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+mkdocs = "^1.5.3"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.11"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
