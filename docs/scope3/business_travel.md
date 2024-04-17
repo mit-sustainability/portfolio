@@ -13,7 +13,7 @@ This project calculates greenhouse gas (GHG) emissions from business travel usin
 
 #### External
 * CPI: using the CPI-U (all urban consumers) annual average values through the Python CPI library, which sources the data from U.S. Bureau of Labor Statistics. 
-* `emission_factor_useeio_v2`: emission factors from USEEIOv1.2, based on 2012 US dollar. 
+* `emission_factor_useeio_v2`: emission factors from USEEIOv2.0, based on 2012 US dollar. 
 
 ```
 [
