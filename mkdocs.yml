@@ -2,8 +2,11 @@ site_name: MITOS Portfolio
 theme:
   name: material
   features:
+    - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.prune
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -17,14 +20,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
+      primary: light blue
       accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: light blue
+      accent: cyan
 
 plugins:
   - social
@@ -34,12 +37,12 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/mit-sustainability
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/SustainableMIT
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/mit-office-of-sustainability/
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/sustainablemit/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@mitofficeofsustainability1348
 
 markdown_extensions:
   - pymdownx.highlight:
