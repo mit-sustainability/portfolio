@@ -3,9 +3,9 @@
 
 * [Business Travel](./scope3/business_travel.md)
 * [Construction](./scope3/construction.md)
-* Employee Commuting
+* [Employee Commuting](./scope3/commuting.md)
 * Purchased Goods
-* Commuting
+* Waste
 
 ## Energize MIT
 
