@@ -2,7 +2,7 @@
 ## Scope3
 
 * [Business Travel](./scope3/business_travel.md)
-* Construction
+* [Construction](./scope3/construction.md)
 * Employee Commuting
 * Purchased Goods
 * Commuting
