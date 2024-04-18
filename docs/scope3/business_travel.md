@@ -1,6 +1,6 @@
 
 ### Summary
-This project calculates greenhouse gas (GHG) emissions from business travel using VPF reimbursement data and USEEIOv1.2 emission factors. It aims to help schools and DLCs identify areas for climate action by providing a dashboard that visualizes expense breakdowns, emissions by expense group, and changes over fiscal years.
+This project calculates greenhouse gas (GHG) emissions from business travel using VPF reimbursement data and USEEIOv2 emission factors. It aims to help schools and DLCs identify areas for climate action by providing a dashboard that visualizes expense breakdowns, emissions by expense group, and changes over fiscal years.
 
 
 ### Data Sources
@@ -37,7 +37,7 @@ This project calculates greenhouse gas (GHG) emissions from business travel usin
 * Clean up the `cost_collector_id` and `school area` columns to remove empty values and Defunct units.
 * Rename 'VP Research' to 'Interdisciplinary Research Initiatives'
 * Rollup several School Areas into `MIT Administration`
-* https://mit-sustainability.github.io/basin/#!/model/model.mitos.stg_cost_object_rollup#code
+* [Source](https://mit-sustainability.github.io/basin/#!/model/model.mitos.stg_cost_object_rollup#code)
 
 
 #### Attach additional info
@@ -45,7 +45,7 @@ This project calculates greenhouse gas (GHG) emissions from business travel usin
 * The pieline will load and concatenate the new entries into the `raw.travel_spending` table in the Postgres data warehouse. We selected and only use information from 4 columns: [expense\_amount, expense\_type, trip\_end\_date, cost\_object]
 * Combining all reference tables, to append DLC\_name, school\_area, emission\_factor, CPI adjustment to the travel spending data.
 * Calculated GHG emission `mtco2`
-* https://mit-sustainability.github.io/basin/#!/model/model.mitos.stg_travel_spending#code
+* [Source](https://mit-sustainability.github.io/basin/#!/model/model.mitos.stg_travel_spending#code)
 
 #### Public available data
 * We leveraged MIT data pool for project based data management and sharing.
