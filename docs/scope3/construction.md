@@ -1,8 +1,7 @@
 
 ### Summary
+
 This project calculates Scope 3 GHG emissions for Capital Goods associated with construction, renovation, and maintenance activities. It combines data from VPCSS (E-builder) for construction, renovation, and renewal projects, and maintenance material and service data from the facilities department. The emissions are broken down into three categories: new construction, renovations, and maintenance.
-
-
 
 ### Data Sources
 
