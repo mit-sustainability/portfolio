@@ -30,7 +30,7 @@ theme:
       accent: cyan
 extra_css:
   - stylesheets/extra.css
-  
+
 plugins:
   - social
   - search
