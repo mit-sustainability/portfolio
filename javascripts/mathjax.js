@@ -17,3 +17,4 @@ window.MathJax = {
     MathJax.texReset()
     MathJax.typesetPromise()
   })
+  
