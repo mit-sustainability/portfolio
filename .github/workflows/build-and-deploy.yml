@@ -26,4 +26,4 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Deploy the site
-        run: mkdocs gh-deploy --force
+        run: poetry run mkdocs gh-deploy --force
