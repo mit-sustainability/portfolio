@@ -39,6 +39,7 @@ extra_javascript:
 plugins:
   - social
   - search
+  - caption
 
 extra:
   social:
