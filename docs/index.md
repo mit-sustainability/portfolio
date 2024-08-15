@@ -5,7 +5,7 @@
 * [Construction](./scope3/construction.md)
 * [Employee Commuting](./scope3/commuting.md)
 * Purchased Goods
-* Waste
+* [Waste](./scope3/waste.md)
 
 ## Energize MIT
 
