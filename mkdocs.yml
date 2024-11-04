@@ -40,6 +40,7 @@ plugins:
   - social
   - search
   - caption
+  - autolinks
   - git-revision-date-localized:
       type: date
 
