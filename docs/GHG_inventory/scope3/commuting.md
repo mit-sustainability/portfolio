@@ -21,7 +21,7 @@ This project calculates Scope 3 GHG emissions for Employee Commuting. The calcul
 
 ### Processing
 
-![commuting](../assets/images/commuting.png#shadow)
+![commuting](commuting.png#shadow)
 
 #### Derive commute distance for each mode
 

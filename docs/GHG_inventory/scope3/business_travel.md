@@ -33,7 +33,7 @@ This project calculates greenhouse gas (GHG) emissions from business travel usin
 
 ### Processing
 
-![business_travel](../assets/images/business_travel_flow.png#shadow)
+![business_travel](business_travel_flow.png#shadow)
 
 #### Roll up of school areas
 

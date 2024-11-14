@@ -21,7 +21,7 @@ This project calculates Scope 3 GHG emissions for waste generated in MIT operati
 
 ### Processing
 
-![Scope 3 waste data lineage](../assets/images/waste.png#shadow)
+![Scope 3 waste data lineage](waste.png#shadow)
 
 The scope3 waste GHG emission calculation extends the [Material Matters](https://datapool.mit.edu/visualization/materials-matters-mits-waste-and-recycling-data) pipeline by associating emission factors of various material streams with specified adjustments and splits.
 
