@@ -22,7 +22,7 @@ This project calculates Scope 3 GHG emissions for Capital Goods associated with 
 
 ### Processing
 
-![construction](../assets/images/construction.png#shadow)
+![construction](construction.png#shadow)
 
 #### Associate Supply Chain Emission Factors
 

@@ -1,4 +1,3 @@
-
 ### Summary
 
 This project calculates greenhouse gas (GHG) emissions from purchased goods and services (PG&S) at MIT using a spend-based approach and USEEIOv2.0 emission factors. It supports MIT's Climate Action Plan, aiming to identify reduction opportunities by classifying commodity categories as actionable or non-actionable. The project provides a dashboard for transparent reporting and trend analysis over fiscal years.
@@ -12,13 +11,12 @@ This project calculates greenhouse gas (GHG) emissions from purchased goods and 
 * `all_scopes`: summary sheet for Scope1, 2 and 3 emission of multiple fiscal years.
 * `purchased_goods_mapping`: mapping from commodity categories to commidity with USEEIO codes and emission factors.
 
-
 #### External
 
 * USEEIOv2 Emission Factors: Used to estimate emissions by matching MIT's commodity categories to NAICS codes, shared among multiple pipelines.
 * Consumer Price Index (CPI): Adjusts expenses to a reference year (2021) for consistency.
 
-!!! note 
+!!! note
 	The USEEIOv2.0 model, developed by the U.S. EPA, uses economic-environmental input-output data from 2012 and includes emission factors across multiple industries. More information is available [here](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-technical-content).
 
 ### Processing
