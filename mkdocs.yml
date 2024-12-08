@@ -28,6 +28,7 @@ theme:
         name: Switch to light mode    
       primary: light blue
       accent: cyan
+
 extra_css:
   - stylesheets/extra.css
 
