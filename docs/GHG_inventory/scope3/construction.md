@@ -33,7 +33,8 @@ This project calculates Scope 3 GHG emissions for Capital Goods associated with 
 
 #### Attach additional info
 
-* Adjust expense to 2021 US dollars.
+* Adjust expense to 2021 US dollars. 
+* Limit the New Construction costs to 65% for Material and Assembly (the other 35% is soft costs for design service, insurance and project management related costs)
 * Associate emission factors based on USEEIO codes
 * Calculate GHG emissions
 * Construction Expense [Source](https://mit-sustainability.github.io/basin/#!/model/model.mitos.stg_construction_expense)
